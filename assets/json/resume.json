@@ -44,16 +44,13 @@
       "highlights": ["Built a brand new payment monitoring system from scratch", "Worked with a ton of brilliant folks"]
     }
   ],
-  "volunteer": [
+  "publications": [
     {
-      "organization": "Manan-A Technosurge",
-      "location": "India",
-      "position": "Joint Secretary",
-      "url": "https://in.linkedin.com/company/manan-ymca",
-      "startDate": "2022-07",
-      "endDate": "2024-07",
-      "summary": "As a joint secretary of 'Manan-A Technosurge', the coding club of my university, I co-led various coding events and represented the college at external coding contests.",
-      "highlights": []
+      "name": "Offloaded Reasoning: Efficient Inference for Large Language Models via Modular Reasoning and Refinement",
+      "publisher": "ICML 2025 Oral (TTODLer-FM Workshop)",
+      "releaseDate": "2025",
+      "url": "https://openreview.net/forum?id=kwhQ6Btu5E",
+      "summary": "Large language models (LLMs) demonstrate strong reasoning capabilities but are expensive to run at inference time, limiting their practical deployment. We propose Offloaded Reasoning (OR), a modular strategy where a lightweight model generates intermediate reasoning traces that are then used by a larger model to produce the final answer. We further introduce Offloaded Reasoning with Refinement (ORR), where the large model first edits or improves the reasoning trace before answering. Unlike token-level acceleration methods, OR and ORR operate at the reasoning level and require no retraining of the large model. Experiments on GSM8K and Math500 show that OR achieves up to 8x faster inference than full large-model reasoning with minimal accuracy loss, while ORR recovers or exceeds full accuracy at substantially lower cost. Our results highlight the potential of modular, delegation-based reasoning for building more efficient and adaptable LLM systems."
     }
   ],
   "education": [
@@ -67,6 +64,18 @@
       "endDate": "2024",
       "score": "",
       "courses": []
+    }
+  ],
+    "volunteer": [
+    {
+      "organization": "Manan-A Technosurge",
+      "location": "India",
+      "position": "Joint Secretary",
+      "url": "https://in.linkedin.com/company/manan-ymca",
+      "startDate": "2022-07",
+      "endDate": "2024-07",
+      "summary": "As a joint secretary of 'Manan-A Technosurge', the coding club of my university, I co-led various coding events and represented the college at external coding contests.",
+      "highlights": []
     }
   ],
   "awards": [
@@ -85,15 +94,6 @@
       "issuer": "Deeplearning.ai",
       "url": "https://coursera.org/share/4dd9f0e17bbdf8bfebb8453ff7b22d43",
       "icon": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "Offloaded Reasoning: Efficient Inference for Large Language Models via Modular Reasoning and Refinement",
-      "publisher": "ICML 2025 Oral (TTODLer-FM Workshop)",
-      "releaseDate": "2025",
-      "url": "https://openreview.net/forum?id=kwhQ6Btu5E",
-      "summary": "Large language models (LLMs) demonstrate strong reasoning capabilities but are expensive to run at inference time, limiting their practical deployment. We propose Offloaded Reasoning (OR), a modular strategy where a lightweight model generates intermediate reasoning traces that are then used by a larger model to produce the final answer. We further introduce Offloaded Reasoning with Refinement (ORR), where the large model first edits or improves the reasoning trace before answering. Unlike token-level acceleration methods, OR and ORR operate at the reasoning level and require no retraining of the large model. Experiments on GSM8K and Math500 show that OR achieves up to 8x faster inference than full large-model reasoning with minimal accuracy loss, while ORR recovers or exceeds full accuracy at substantially lower cost. Our results highlight the potential of modular, delegation-based reasoning for building more efficient and adaptable LLM systems."
     }
   ],
   "skills": [
