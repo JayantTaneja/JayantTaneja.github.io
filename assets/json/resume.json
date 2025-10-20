@@ -53,6 +53,45 @@
       "summary": "Large language models (LLMs) demonstrate strong reasoning capabilities but are expensive to run at inference time, limiting their practical deployment. We propose Offloaded Reasoning (OR), a modular strategy where a lightweight model generates intermediate reasoning traces that are then used by a larger model to produce the final answer. We further introduce Offloaded Reasoning with Refinement (ORR), where the large model first edits or improves the reasoning trace before answering. Unlike token-level acceleration methods, OR and ORR operate at the reasoning level and require no retraining of the large model. Experiments on GSM8K and Math500 show that OR achieves up to 8x faster inference than full large-model reasoning with minimal accuracy loss, while ORR recovers or exceeds full accuracy at substantially lower cost. Our results highlight the potential of modular, delegation-based reasoning for building more efficient and adaptable LLM systems."
     }
   ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "SQL", "C++"]
+    },
+    {
+      "name": "Libraries/Frameworks",
+      "level": "",
+      "icon": "fa-solid fa-cube",
+      "keywords": ["PyTorch", "PySpark", "vLLM", "Huggingface Transformers", "FastAPI", "Streamlit", "Model Context Protocol (MCP)"]
+    },
+    {
+      "name": "GenAI Tools/Related Technologies",
+      "level": "",
+      "icon": "fa-solid fa-hexagon-nodes-bolt",
+      "keywords": ["vLLM (LLM inference)", "ChromaDB (vector database)"]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "icon": "fa-solid fa-database",
+      "keywords": ["PostgreSQL", "Snowflake SQL", "Databricks SQL", "AWS RDS"]
+    },
+    {
+      "name": "Other Tools",
+      "level": "",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["AWS EC2", "AWS EMR", "Git", "GitHub", "Jupyter"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Information Retrieval", "Natural Language Processing", "Recommender Systems", "Generative AI"]
+    }
+  ],
   "education": [
     {
       "institution": "J.C. Bose University Of Science and Technology, YMCA, Faridabad",
@@ -95,38 +134,6 @@
       "icon": ""
     }
   ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "level": "",
-      "icon": "fa-solid fa-code",
-      "keywords": ["Python", "SQL", "C++"]
-    },
-    {
-      "name": "Libraries/Frameworks",
-      "level": "",
-      "icon": "fa-solid fa-cube",
-      "keywords": ["PyTorch", "PySpark", "vLLM", "Huggingface Transformers", "FastAPI", "Streamlit", "Model Context Protocol (MCP)"]
-    },
-    {
-      "name": "GenAI Tools/Related Technologies",
-      "level": "",
-      "icon": "fa-solid fa-hexagon-nodes-bolt",
-      "keywords": ["vLLM (LLM inference)", "ChromaDB (vector database)"]
-    },
-    {
-      "name": "Databases",
-      "level": "",
-      "icon": "fa-solid fa-database",
-      "keywords": ["PostgreSQL", "Snowflake SQL", "Databricks SQL", "AWS RDS"]
-    },
-    {
-      "name": "Other Tools",
-      "level": "",
-      "icon": "fa-solid fa-wrench",
-      "keywords": ["AWS EC2", "AWS EMR", "Git", "GitHub", "Jupyter"]
-    }
-  ],
   "languages": [
     {
       "language": "English",
@@ -137,13 +144,6 @@
       "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Artificial Intelligence",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Information Retrieval", "Natural Language Processing", "Recommender Systems", "Generative AI"]
     }
   ],
   "references": [],
