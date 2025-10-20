@@ -66,7 +66,7 @@
       "courses": []
     }
   ],
-    "volunteer": [
+  "volunteer": [
     {
       "organization": "Manan-A Technosurge",
       "location": "India",
@@ -78,8 +78,7 @@
       "highlights": []
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "certificates": [
     {
       "name": "Machine Learning",
@@ -101,57 +100,31 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "SQL",
-        "C++"
-      ]
+      "keywords": ["Python", "SQL", "C++"]
     },
     {
       "name": "Libraries/Frameworks",
       "level": "",
       "icon": "fa-solid fa-cube",
-      "keywords": [
-        "PyTorch",
-        "PySpark",
-        "vLLM",
-        "Huggingface Transformers",
-        "FastAPI",
-        "Streamlit",
-        "Model Context Protocol (MCP)"
-      ]
+      "keywords": ["PyTorch", "PySpark", "vLLM", "Huggingface Transformers", "FastAPI", "Streamlit", "Model Context Protocol (MCP)"]
     },
     {
       "name": "GenAI Tools/Related Technologies",
       "level": "",
       "icon": "fa-solid fa-hexagon-nodes-bolt",
-      "keywords": [
-        "vLLM (LLM inference)",
-        "ChromaDB (vector database)"
-      ]
+      "keywords": ["vLLM (LLM inference)", "ChromaDB (vector database)"]
     },
     {
       "name": "Databases",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "PostgreSQL",
-        "Snowflake SQL",
-        "Databricks SQL",
-        "AWS RDS"
-      ]
+      "keywords": ["PostgreSQL", "Snowflake SQL", "Databricks SQL", "AWS RDS"]
     },
     {
       "name": "Other Tools",
       "level": "",
       "icon": "fa-solid fa-wrench",
-      "keywords": [
-        "AWS EC2",
-        "AWS EMR",
-        "Git",
-        "GitHub",
-        "Jupyter"
-      ]
+      "keywords": ["AWS EC2", "AWS EMR", "Git", "GitHub", "Jupyter"]
     }
   ],
   "languages": [
@@ -170,14 +143,9 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Information Retrieval",
-        "Natural Language Processing",
-        "Recommender Systems",
-        "Generative AI"
-      ]
+      "keywords": ["Information Retrieval", "Natural Language Processing", "Recommender Systems", "Generative AI"]
     }
   ],
-  "references": [  ],
-  "projects": [  ]
+  "references": [],
+  "projects": []
 }
