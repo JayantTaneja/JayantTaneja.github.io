@@ -28,4 +28,4 @@ Hi, I am Jayant Taneja, presently a Machine Learning Engineer at [Samsung Resear
 
 Previously, I worked as an Analytics Intern at [Swiggy](https://www.swiggy.com/) where I worked on improving the in-house payments platform by analyzing terabytes of payments data.
 
-My research interests include Information Retrieval, Natural Language Processing and Recommender Systems.
+My research interests include Natural Language Processing and Recommender Systems.
