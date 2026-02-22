@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{
+  jindal2026the,
+  title = "{THE} {PATH} {OF} {LEAST} {RESISTANCE}: {GUIDING} {LLM} {REASONING} {TRAJECTORIES} {WITH} {PREFIX} {CONSENSUS}",
+  author = "Ishan Jindal and Sai Prashanth Akuthota and Jayant Taneja and SACHIN DEV SHARMA",
+  booktitle = "The Fourteenth International Conference on Learning Representations",
+  year = "2026",
+  url = "https://openreview.net/forum?id=hrnSqERgPn",
+  abbr = "ICLR 2026",
+  abstract = "Large language models achieve strong reasoning performance, but inference strategies such as Self-Consistency (SC) are computationally expensive, as they fully expand all reasoning traces. We introduce PoLR (Path of Least Resistance), the first inference-time method to leverage prefix self-consistency for compute-efficient reasoning. PoLR clusters short prefixes of reasoning traces, identifies the dominant cluster, and expands only a subset of promising paths, preserving the accuracy benefits of SC while substantially reducing token usage and latency. Our theoretical analysis, framed via mutual information and entropy, explains why early reasoning steps encode strong signals predictive of final correctness. Empirically, PoLR consistently matches or exceeds SC across GSM8K, Math500, AIME 2024/2025, and GPQA-Diamond, reducing token usage by up to 60% and wall-clock latency by up to 50%. Moreover, PoLR is fully complementary to adaptive inference methods (e.g., Adaptive Consistency, Early-Stopping SC) and can serve as a drop-in pre-filter, making SC substantially more efficient and scalable without requiring model fine-tuning.",
+  preview = "2-polr.png",
+  html = "https://openreview.net/forum?id=hrnSqERgPn",
+  selected= "true",
+}
+
 @inproceedings{jindal-etal-2025-offloaded,
     title = "Offloaded Reasoning: Efficient Inference for Large Language Models via Modular Reasoning and Refinement",
     author = "Jindal, Ishan  and
@@ -41,32 +55,4 @@
   selected={true},
   preview={1-offloaded-reasoning.png},
   abstract={Large language models (LLMs) demonstrate strong reasoning capabilities but are expensive to run at inference time, limiting their practical deployment. We propose Offloaded Reasoning (OR), a modular strategy where a lightweight model generates intermediate reasoning traces that are then used by a larger model to produce the final answer. We further introduce Offloaded Reasoning with Refinement (ORR), where the large model first edits or improves the reasoning trace before answering. Unlike token-level acceleration methods, OR and ORR operate at the reasoning level and require no retraining of the large model. Experiments on GSM8K and Math500 show that OR achieves up to 8x faster inference than full large-model reasoning with minimal accuracy loss, while ORR recovers or exceeds full accuracy at substantially lower cost. Our results highlight the potential of modular, delegation-based reasoning for building more efficient and adaptable LLM systems.}
-}
-
-@/article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
 }
