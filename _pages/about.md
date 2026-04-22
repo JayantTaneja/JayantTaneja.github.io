@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Jayant Taneja, presently a Machine Learning Engineer at [Samsung Research and Development Institute India-Delhi](https://research.samsung.com/sri-d), where I work on intelligent screen experiences via Generative AI and Recommender Systems.
+Hi, I am Jayant Taneja, presently a Machine Learning Engineer at [Samsung Research and Development Institute India-Delhi](https://research.samsung.com/sri-d), where I do a mix of research and engineering around Generative AI for intelligent screen experiences.
 
 Previously, I worked as an Analytics Intern at [Swiggy](https://www.swiggy.com/) where I worked on improving the in-house payments platform by analyzing terabytes of payments data.
 
