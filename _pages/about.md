@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning @ Samsung Research
+subtitle: AI Inference @ Fujitsu Research
 
 profile:
   align: right
@@ -24,8 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Jayant Taneja, presently a Machine Learning Engineer at [Samsung Research and Development Institute India-Delhi](https://research.samsung.com/sri-d), where I do a mix of research and engineering around Generative AI for intelligent screen experiences.
+Hi there! I am Jayant and I am presently working on AI Inference + HPC at [Fujitsu Research India](https://global.fujitsu/en-apac/local/technology/research) where I work on making AI systems fast and efficient for the [Monaka](https://global.fujitsu/en-apac/local/technology/research/monaka) High Performance Computing system.
 
-Previously, I worked as an Analytics Intern at [Swiggy](https://www.swiggy.com/) where I worked on improving the in-house payments platform by analyzing terabytes of payments data.
+Previously I worked as a Machine Learning Engineer at [Samsung Research and Development Institute India-Delhi](https://research.samsung.com/sri-d), where I did a mix of research and engineering around Generative AI for intelligent screen experiences.
 
-My research interests include Natural Language Processing and Recommender Systems.
+
+My research interests include Large Language Models and AI Inference Optimization.
