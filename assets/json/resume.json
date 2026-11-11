@@ -24,12 +24,21 @@
   },
   "work": [
     {
-      "name": "Samsung R&D Institute India, Delhi",
-      "position": "Software Engineer-Machine Learning",
+      "name": "Fujitsu Research India",
+      "position": "Software Engineer II - AI Inference",
       "location": "India",
-      "url": "",
-      "startDate": "2024-07",
+      "url": "https://global.fujitsu/en-apac/local/technology/research",
+      "startDate": "2026-09",
       "endDate": "",
+      "summary": "Accelerating AI Inference for High Performance Computing Systems"
+    },
+    {
+      "name": "Samsung R&D Institute India, Delhi",
+      "position": "Software Engineer - Machine Learning",
+      "location": "India",
+      "url": "https://research.samsung.com/sri-d",
+      "startDate": "2024-07",
+      "endDate": "2026-09",
       "summary": "A mix of Generative AI Research, Recommender Systems engineering, and a lot of new concept development for intelligent screen experiences.",
       "highlights": ["ICLR 2026 (poster) acceptance", "EMNLP 2025 findings acceptance", "ICML 2025 Workshop (Oral) acceptance"]
     },
