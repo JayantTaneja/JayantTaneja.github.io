@@ -28,5 +28,4 @@ Hi there! I am Jayant and I am presently working on AI Inference + HPC at [Fujit
 
 Previously I worked as a Machine Learning Engineer at [Samsung Research and Development Institute India-Delhi](https://research.samsung.com/sri-d), where I did a mix of research and engineering around Generative AI for intelligent screen experiences.
 
-
 My research interests include Large Language Models and AI Inference Optimization.
